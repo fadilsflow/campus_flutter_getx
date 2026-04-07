@@ -28,11 +28,11 @@ class MyApp extends StatelessWidget {
 class CounterController extends GetxController {
   var count = 0.obs;
   void increment() {
-    count++;
+    count.value++;
   }
 
   void decrement() {
-    count--;
+    count.value--;
   }
 
   void reset() {
